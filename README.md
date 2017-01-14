@@ -1,0 +1,2 @@
+# spankster
+random punishment generator 
