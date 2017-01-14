@@ -1,0 +1,8 @@
+$(document).ready(function(){
+    //button click
+    $("button").click(function(){ 
+        $("p").css("color", "red");
+    });
+
+
+});//end of document ready function

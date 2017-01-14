@@ -1,0 +1,49 @@
+body{
+  font-size: 18px;
+  font-family: Raleway;
+  margin-right:150 px;
+  margin-left: 150px;
+    }
+
+
+h1{text-align: center;
+    background-color: #039D3D;
+    color: white;
+    padding: 30px;
+    font-family:'Fredoka One', cursive;
+}
+
+
+button {
+  width: 100px;
+	height: 100px;
+	background: #EDD208;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+  border:none;
+}
+
+button:hover {
+    background: orange;
+    color: white;}
+
+
+p{  font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    margin: 40px;
+    height: 250px;
+    border-radius: 25px;
+    color: #039D3D;
+    text-align: center;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+}
+
+.center{
+      padding: 0 36% 0;
+      font-family: 'Nunito', sans-serif;  
+}
