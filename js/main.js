@@ -2,59 +2,63 @@
 function randomNumber() {
    var mathRandom =  Math.floor(Math.random()* 8+1);
 
-console.log(mathRandom);
+   document.body.appendChild(countdown).play()
+
+   setTimeout(function(){document.getElementById("punishment").innerHTML="No technology for 20 mins";}, 5000);
+
 
  if (mathRandom === 1) {
-    document.getElementById("quote").innerHTML = "No technology for 20 mins.";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="No technology for 20 mins";}, 5000);
   } else if (mathRandom === 2) {
-    document.getElementById("quote").innerHTML = "No TV for the rest of the day";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="No TV for the rest of the day";}, 5000);
   } else if (mathRandom === 3) {
-    document.getElementById("quote").innerHTML = "No phone for the rest of the day";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="No phone for the rest of the day";}, 5000);
   } else if (mathRandom === 4) {
-    document.getElementById("quote").innerHTML = "Clean the bathroom.";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Clean the bathroom";}, 5000);
   } else if (mathRandom === 5) {
-    document.getElementById("quote").innerHTML = "Tidy your bedroom";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Tidy your bedroom";}, 5000);
   } else if (mathRandom === 6) {
-    document.getElementById("quote").innerHTML = "Make your bed.";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Make your bed";}, 5000);
   } else if (mathRandom === 7) {
-    document.getElementById("quote").innerHTML = "Put away your cloths";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Put away your cloths";}, 5000);
   } else {
-    document.getElementById("quote").innerHTML = "Wash dishes";
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Make Heidi tea.";}, 5000);
   }
+
 };
 
 
 /*
-switch (newQuote) {
+switch (newpunishment) {
   case <= 0.1:
-    return "quote1";
+    return "punishment1";
     break;
   case <= 0.2:
-    return "quote2";
+    return "punishment2";
     break;
   case <= 0.3:
-    return "quote3";
+    return "punishment3";
     break;
   case <= 0.4:
-    return "quote4";
+    return "punishment4";
     break;
   case <= 0.5:
-    return "quote5";
+    return "punishment5";
     break;
   case <= 0.6:
-    return "quote6";
+    return "punishment6";
     break;
   case <= 0.7:
-    return "quote7";
+    return "punishment7";
     break;
   case <= 0.8:
-    return "quote8";
+    return "punishment8";
     break;
   case <= 0.9:
-    return "quote9";
+    return "punishment9";
     break;
   case <= 1:
-    return "quote10";
+    return "punishment10";
     break;
 
 }

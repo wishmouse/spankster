@@ -1,2 +1,1 @@
-# spankster
-random punishment generator 
+# quote-generator
