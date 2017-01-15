@@ -136,7 +136,7 @@ function randomNumberAdult() {
   }else if (mathRandom === 48) {
     setTimeout(function(){document.getElementById("punishment").innerHTML="Use secutions on her nipples";}, 5000);
   }else if (mathRandom === 49) {
-    setTimeout(function(){document.getElementById("punishment").innerHTML="Use secutions on her clit";}, 5000);
+    setTimeout(function(){document.getElementById("punishment").innerHTML="Use suctions on her clit";}, 5000);
   }else if (mathRandom === 50) {
     setTimeout(function(){document.getElementById("punishment").innerHTML="Play with a pussy pocket / flesh light / grapefruit";}, 5000);
   }else if (mathRandom === 70) {
